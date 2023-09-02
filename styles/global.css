@@ -420,7 +420,7 @@ END DIFERENCIAIS
 O-QUE-E
 */
 .o-que-e {
-  padding: 3rem;
+  padding: 3rem 0;
 }
 .o-que-e h2 {
   text-align: left;
@@ -637,6 +637,12 @@ DEPOIMENTOS
   top: -3rem;
   left: 50%;
   transform: translateX(-50%);
+  overflow: hidden;
+}
+.depoimentos .swiper-depoimentos .depoimento .photo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .depoimentos .swiper-depoimentos .depoimento .comentario {
   margin-bottom: 2rem;
@@ -768,17 +774,23 @@ END FOOTER
   .container {
     max-width: 768px;
   }
-  .hero .floating-button {
-    height: 6rem;
-    border-top-left-radius: 8rem;
-    border-top-right-radius: 8rem;
+  .hero .content h1 {
+    width: auto;
   }
   .hero .section-image .icon-dollar-1 {
-    top: 22%;
-    left: 8%;
+    top: 36%;
+  }
+  .o-que-e .row {
+    width: 90%;
   }
   .porque .boxes .box {
     width: 33rem;
+  }
+  .lista-diferenciais ul {
+    width: 100%;
+  }
+  .destaque .row {
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -846,7 +858,18 @@ END FOOTER
   .hero .content .btn-green {
     margin: 0 auto;
   }
-  .video-sobre .row {
+  .hero .section-image img {
+    margin: 0 auto;
+    width: 33rem;
+  }
+  .diferenciais .content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .diferenciais .box p {
+    margin-bottom: 0;
+  }
+  .o-que-e .row {
     width: 100%;
   }
   .como-funciona .boxes {
@@ -855,7 +878,12 @@ END FOOTER
   .como-funciona .boxes .box {
     width: 33rem;
   }
-
+  .lista-diferenciais .row {
+    gap: 1rem;
+  }
+  .destaque .row {
+    grid-template-columns: 1fr;
+  }
   .faq .row {
     width: 100%;
   }
@@ -884,9 +912,6 @@ END FOOTER
   .porque .boxes {
     gap: 2rem;
   }
-  .video-sobre {
-    background-position: -20% center;
-  }
   .como-funciona {
     padding: 5rem 0;
   }
@@ -905,6 +930,22 @@ END FOOTER
   }
   footer .social p {
     text-align: center;
+  }
+  .lista-diferenciais .row {
+    grid-template-columns: 1fr;
+  }
+  .lista-diferenciais .section-image {
+    margin-bottom: 3rem;
+  }
+  .destaque .box {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .destaque p {
+    text-align: center;
+  }
+  .destaque .box p {
+    font-size: 3.5rem;
   }
 }
 @media (max-width: 400px) {

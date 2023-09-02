@@ -22,6 +22,7 @@ import parceiro1 from '../public/agr.png'
 import parceiro2 from '../public/ducam.png'
 import parceiro3 from '../public/grupo-ducam.png'
 import parceiro4 from '../public/rvb.png'
+import photo from '../public/photo.jpg'
 import whiteLogo from '../public/logo-white.png'
 import iconLikendin from '../public/icon-linkedin.png'
 import iconFacebook from '../public/icon-facebook.png'
@@ -281,7 +282,7 @@ export default function Home() {
                       slidesPerView: 2,
                       spaceBetween: 20
                     },
-                    768: {
+                    992: {
                       slidesPerView: 3,
                       spaceBetween: 40
                     },
@@ -294,7 +295,9 @@ export default function Home() {
                 >
                   <SwiperSlide>
                     <div className="depoimento">
-                      <div className="photo"></div>
+                      <div className="photo">
+                        <Image src={photo} width={350} height={520} quality={100} alt="" />
+                      </div>
                       <p className="comentario">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
