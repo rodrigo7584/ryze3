@@ -1,0 +1,63 @@
+/*
+FOOTER
+*/
+footer {
+  background-color: #170e47;
+  padding: 5rem 0;
+}
+footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+footer .logo img {
+  height: 5rem;
+  margin-bottom: 3rem;
+}
+footer .about {
+  width: 40rem;
+}
+footer .about p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+footer .about a.email {
+  color: var(--white);
+  margin-top: 3rem;
+  font-family: var(--pop);
+}
+footer .social {
+  width: 15rem;
+}
+footer .social-list {
+  list-style: none;
+  display: flex;
+  gap: 0.7rem;
+}
+footer .social-list img {
+  width: 3rem;
+  margin-bottom: 2rem;
+}
+footer .social p {
+  font-size: 1.2rem;
+}
+/*
+END FOOTER
+*/
+@media (max-width: 576px) {
+  footer .row {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  footer .about {
+    width: 100%;
+  }
+  footer .social {
+    width: 100%;
+  }
+  footer .social-list {
+    justify-content: center;
+  }
+  footer .social p {
+    text-align: center;
+  }
+}

@@ -1,0 +1,51 @@
+/*
+COMO-FUNCIONA 
+*/
+.como-funciona {
+  padding: 5rem;
+  background: var(--light-gray);
+}
+.como-funciona .boxes {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+.como-funciona .boxes .box {
+  width: 25rem;
+  background-color: var(--blue);
+  border-radius: 0.7rem;
+  padding: 2rem;
+  filter: var(--shadow);
+}
+.como-funciona .boxes .box span {
+  font-family: var(--pop);
+  font-weight: var(--font-regular);
+  color: var(--green);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+.como-funciona .boxes .box h3 {
+  color: var(--white);
+}
+.como-funciona .boxes .box p {
+  margin-bottom: 0;
+}
+/*
+END COMO-FUNCIONA
+*/
+@media (max-width: 768px) {
+  .como-funciona .boxes {
+    flex-wrap: wrap;
+  }
+  .como-funciona .boxes .box {
+    width: 33rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .como-funciona {
+    padding: 5rem 0;
+  }
+}

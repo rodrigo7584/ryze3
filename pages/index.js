@@ -15,7 +15,7 @@ import 'vidstack/styles/defaults.css'
 import 'vidstack/styles/community-skin/video.css'
 
 import iconDollar from '../public/icon-dollar.png'
-import photoMan from '../public/photo-man.png'
+import photoMan2 from '../public/photo-man-2.png'
 import iconGreenArrow from '../public/icon-arrow-3.png'
 import photoCellphone from '../public/illustration-4.png'
 import photoGirlSmilling from '../public/illustration.png'
@@ -28,7 +28,7 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <section className="hero" id="hero">
+        <section className="hero-home" id="hero">
           <div className="container">
             <div className="row">
               <div className="content">
@@ -61,7 +61,7 @@ export default function Home() {
                   alt=""
                   className="icon-dollar icon-dollar-1"
                 />
-                <Image src={photoMan} width={472} height={451} quality={100} alt="" />
+                <Image src={photoMan2} width={472} height={451} quality={100} alt="" />
               </div>
             </div>
           </div>
@@ -268,8 +268,8 @@ export default function Home() {
                     </div>
                   </SwiperSlide>
                 </Swiper>
-                <img src="/icon-next-prev.png" className="swiper-button-prev" />
-                <img src="/icon-next-prev.png" className="swiper-button-next" />
+                <img src="/icon-next-prev-green.png" className="swiper-button-prev" />
+                <img src="/icon-next-prev-green.png" className="swiper-button-next" />
               </div>
             </div>
           </div>

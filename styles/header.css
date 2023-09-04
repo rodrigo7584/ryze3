@@ -1,0 +1,103 @@
+/*
+HEADER
+*/
+header.menu {
+  top: 0;
+  right: 0;
+  width: 100%;
+  background: var(--blue);
+  padding: 2rem;
+  z-index: 10;
+  box-sizing: border-box;
+}
+header.menu .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header.menu a.logo img {
+  height: 5rem;
+}
+header.menu nav ul {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+header.menu nav li a {
+  font-family: var(--nun);
+  font-weight: var(--font-regular);
+  font-size: 1.3rem;
+  color: var(--white);
+  padding: 0.5rem;
+}
+header.menu nav li .btn-green {
+  color: var(--blue);
+  padding: 0.8rem 3rem;
+}
+header.menu .btn-mobile-menu {
+  display: none;
+}
+/*
+END HEADER
+*/
+
+@media (max-width: 768px) {
+  header.menu .btn-mobile-menu {
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  header.menu .btn-mobile-menu div {
+    width: 3.9rem;
+    height: 0.4rem;
+    border-radius: 20px;
+    background: var(--green);
+    transition: 0.6s;
+  }
+  header.menu .btn-mobile-menu.active div:nth-child(1) {
+    transform: translate(0px, 11px) rotateZ(45deg);
+  }
+  header.menu .btn-mobile-menu.active div:nth-child(2) {
+    transform: scaleX(0);
+  }
+  header.menu .btn-mobile-menu.active div:nth-child(3) {
+    transform: translate(0px, -11px) rotateZ(-45deg);
+  }
+  header.menu nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    gap: 2rem;
+    justify-content: flex-start;
+    position: absolute;
+    width: 100%;
+    top: 9.2rem;
+    right: 0;
+    background: var(--blue);
+    height: 0;
+    transition: 0.6s all ease-in-out;
+    visibility: hidden;
+    overflow: hidden;
+    z-index: 99;
+  }
+  header.menu nav.active ul {
+    height: calc(100vh - 9.2rem);
+    visibility: visible;
+  }
+  header.menu nav li a {
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 576px) {
+  header.menu a.logo img {
+    height: 4rem;
+  }
+  header.menu nav ul {
+    top: 8.2rem;
+  }
+  header.menu nav.active ul {
+    height: calc(100vh - 8.2rem);
+  }
+}
