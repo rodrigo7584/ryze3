@@ -1,7 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
-import { MediaCommunitySkin, MediaOutlet, MediaPlayer, MediaPoster } from '@vidstack/react'
+import {
+  MediaCommunitySkin,
+  MediaOutlet,
+  MediaPlayer,
+  MediaPoster
+} from '@vidstack/react'
 
 import Accordion from '../components/Accordion'
 
@@ -22,7 +28,7 @@ import Header from '../components/Header'
 import HowWork from '../components/HowWork'
 import Partners from '../components/Partners'
 
-export default function Home() {
+export default function Empreendedores() {
   return (
     <>
       <Header />
@@ -30,24 +36,31 @@ export default function Home() {
         <section className="hero" id="hero">
           <div className="container">
             <div className="row">
-              <a href="#porque" className="floating-button">
+              <Link href="#porque" className="floating-button">
                 <span>
                   Saiba Mais
-                  <Image src={iconArrow} width={12} height={15} quality={100} alt="" />
+                  <Image
+                    src={iconArrow}
+                    width={12}
+                    height={15}
+                    quality={100}
+                    alt=""
+                  />
                 </span>
-              </a>
+              </Link>
               <div className="content">
                 <h1>
-                  Melhore seu fluxo de caixa, compre mais e venda mais. O fôlego que a sua empresa
-                  precisa.
+                  Melhore seu fluxo de caixa, compre mais e venda mais. O fôlego
+                  que a sua empresa precisa.
                 </h1>
                 <p>
-                  RyzePay é um novo meio de pagamento entre empresas que possibilita usar do saldo a
-                  receber das suas maquininhas para o pagamento de fornecedores.
+                  RyzePay é um novo meio de pagamento entre empresas que
+                  possibilita usar do saldo a receber das suas maquininhas para
+                  o pagamento de fornecedores.
                 </p>
-                <a href="#" className="btn-green">
+                <Link href="#" className="btn-green">
                   Indique seu fornecedor
-                </a>
+                </Link>
               </div>
               <div className="section-image">
                 <Image
@@ -66,7 +79,13 @@ export default function Home() {
                   alt=""
                   className="icon-dollar icon-dollar-1"
                 />
-                <Image src={photoMan} width={472} height={451} quality={100} alt="" />
+                <Image
+                  src={photoMan}
+                  width={472}
+                  height={451}
+                  quality={100}
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -90,8 +109,8 @@ export default function Home() {
                   />
                   <h3>MAIS PRAZO E LIMITE</h3>
                   <p>
-                    Ao eliminar o risco de inadimplência, o RyzePay ajuda o lojista a obter mais
-                    limite e prazo com seu fornecedor.
+                    Ao eliminar o risco de inadimplência, o RyzePay ajuda o
+                    lojista a obter mais limite e prazo com seu fornecedor.
                   </p>
                 </div>
                 <div className="box">
@@ -105,8 +124,8 @@ export default function Home() {
                   />
                   <h3>SEM CUSTO</h3>
                   <p>
-                    O lojista não paga taxas nem mensalidade para usar o RyzePay. Sem letras miúdas
-                    nem taxas escondidas.
+                    O lojista não paga taxas nem mensalidade para usar o
+                    RyzePay. Sem letras miúdas nem taxas escondidas.
                   </p>
                 </div>
                 <div className="box">
@@ -120,8 +139,9 @@ export default function Home() {
                   />
                   <h3>SEM TAXA DE ANTECIPAÇÃO</h3>
                   <p>
-                    O lojista não precisa antecipar suas vendas no cartão para pagar seu fornecedor,
-                    o dinheiro vai para o fornecedor direto da adquirente.
+                    O lojista não precisa antecipar suas vendas no cartão para
+                    pagar seu fornecedor, o dinheiro vai para o fornecedor
+                    direto da adquirente.
                   </p>
                 </div>
               </div>
@@ -132,28 +152,36 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="section-image">
-                <Image src={photoSpeech} width={543} height={500} quality={100} alt="" />
+                <Image
+                  src={photoSpeech}
+                  width={543}
+                  height={500}
+                  quality={100}
+                  alt=""
+                />
               </div>
               <div className="content">
                 <h2>
                   Modernize o seu negócio com a <span> Ryze RYZE</span>
                 </h2>
                 <p>
-                  A Ryze é uma empresa de tecnologia financeira que veio para substituir os meios de
-                  pagamentos antigos e ineficientes. Unimos tecnologia de ponta às necessidades de
-                  empreendedores e fornecedores, ajudamos o fornecedor a dar mais crédito com
-                  segurança para seus clientes e o lojista a ganhar mais prazo e limite para
-                  conseguir comprar mais e alavancar suas vendas.
+                  A Ryze é uma empresa de tecnologia financeira que veio para
+                  substituir os meios de pagamentos antigos e ineficientes.
+                  Unimos tecnologia de ponta às necessidades de empreendedores e
+                  fornecedores, ajudamos o fornecedor a dar mais crédito com
+                  segurança para seus clientes e o lojista a ganhar mais prazo e
+                  limite para conseguir comprar mais e alavancar suas vendas.
                 </p>
                 <p>
-                  A Ryze ajuda você, lojista, a pagar suas compras de forma simples e rápida,
-                  trazendo para o seu negócio um melhor controle do fluxo de caixa e ajudando você a
-                  evitar pagar juros e multas. Tudo isso de forma 100% gratuita, sem taxas
+                  A Ryze ajuda você, lojista, a pagar suas compras de forma
+                  simples e rápida, trazendo para o seu negócio um melhor
+                  controle do fluxo de caixa e ajudando você a evitar pagar
+                  juros e multas. Tudo isso de forma 100% gratuita, sem taxas
                   escondidas.
                 </p>
-                <a href="#" className="btn-green">
+                <Link href="#" className="btn-green">
                   Indique seu fornecedor
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -163,7 +191,8 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <h2>
-                Assista o vídeo e veja como é <span>fácil e rápido</span> pagar com a Ryze.
+                Assista o vídeo e veja como é <span>fácil e rápido</span> pagar
+                com a Ryze.
               </h2>
               <MediaPlayer
                 src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4"
@@ -186,12 +215,18 @@ export default function Home() {
                 <h2>
                   Convide seu fornecedor a conhecer <span>a Ryze.</span>
                 </h2>
-                <a href="#" className="btn-green">
+                <Link href="#" className="btn-green">
                   Indique seu fornecedor
-                </a>
+                </Link>
               </div>
               <div className="section-image">
-                <Image src={notebook} width={721} height={593} quality={100} alt="" />
+                <Image
+                  src={notebook}
+                  width={721}
+                  height={593}
+                  quality={100}
+                  alt=""
+                />
               </div>
             </div>
           </div>

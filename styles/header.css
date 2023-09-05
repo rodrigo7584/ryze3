@@ -48,6 +48,7 @@ END HEADER
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
+    cursor: pointer;
   }
   header.menu .btn-mobile-menu div {
     width: 3.9rem;

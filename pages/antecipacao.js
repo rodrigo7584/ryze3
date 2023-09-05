@@ -1,14 +1,16 @@
 import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation } from 'swiper/modules'
+
 import Image from 'next/image'
 
-import { MediaCommunitySkin, MediaOutlet, MediaPlayer, MediaPoster } from '@vidstack/react'
+import {
+  MediaCommunitySkin,
+  MediaOutlet,
+  MediaPlayer,
+  MediaPoster
+} from '@vidstack/react'
 
 import Accordion from '../components/Accordion'
 
-import 'swiper/css'
-import 'swiper/css/navigation'
 import 'vidstack/styles/defaults.css'
 import 'vidstack/styles/community-skin/video.css'
 
@@ -24,7 +26,7 @@ import illustrationHandShaking from '../public/hand-shaking.png'
 
 import Footer from '../components/Footer'
 
-export default function Home() {
+export default function Antecipacao() {
   return (
     <>
       <header className="menu">
@@ -41,20 +43,34 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="content">
-                <h1>Antecipe suas vendas no cartão. Rápido e com as melhores taxas!</h1>
+                <h1>
+                  Antecipe suas vendas no cartão. Rápido e com as melhores
+                  taxas!
+                </h1>
                 <ul className="checked-list">
-                  <li>Antecipe as vendas das principais maquininhas do mercado.</li>
+                  <li>
+                    Antecipe as vendas das principais maquininhas do mercado.
+                  </li>
                   <li>Concentre sua agenda de antecipação.</li>
                   <li>As melhores taxas do mercado.</li>
                   <li>Sem burocracia e sem cobrança de IOF.</li>
-                  <li>Receba em até 30 minutos, a velocidade que o seu negócio precisa.</li>
+                  <li>
+                    Receba em até 30 minutos, a velocidade que o seu negócio
+                    precisa.
+                  </li>
                 </ul>
                 <a href="#" className="btn-green">
                   Quero participar
                 </a>
               </div>
               <div className="section-image">
-                <Image src={guySmiling} width={580} height={640} quality={100} alt="" />
+                <Image
+                  src={guySmiling}
+                  width={580}
+                  height={640}
+                  quality={100}
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -64,9 +80,10 @@ export default function Home() {
             <div className="row">
               <h2>Antecipe em poucos passos</h2>
               <p className="subtitle">
-                Esperar 30 dias ou mais para receber suas vendas compromete seu capital de giro. Com
-                a Ryze, você antecipa suas vendas de forma
-                <strong> rápida</strong>,<strong> fácil</strong> e<strong> transparente!</strong>
+                Esperar 30 dias ou mais para receber suas vendas compromete seu
+                capital de giro. Com a Ryze, você antecipa suas vendas de forma
+                <strong> rápida</strong>,<strong> fácil</strong> e
+                <strong> transparente!</strong>
               </p>
               <div className="boxes">
                 <div className="box">
@@ -78,7 +95,10 @@ export default function Home() {
                     alt=""
                     className="icone"
                   />
-                  <p>Faça seu cadastro e autorize a consulta a sua agenda de recebíveis.</p>
+                  <p>
+                    Faça seu cadastro e autorize a consulta a sua agenda de
+                    recebíveis.
+                  </p>
                 </div>
                 <div className="box">
                   <Image
@@ -112,8 +132,8 @@ export default function Home() {
               <div className="content">
                 <h2>Antecipe de qualquer maquininha de cartão</h2>
                 <p>
-                  PagSeguro, Cielo, Rede, Stone, qualquer que seja a sua maquininha, nós podemos
-                  fazer a antecipação.
+                  PagSeguro, Cielo, Rede, Stone, qualquer que seja a sua
+                  maquininha, nós podemos fazer a antecipação.
                 </p>
               </div>
               <div className="section-image">
@@ -141,8 +161,9 @@ export default function Home() {
               <div className="content">
                 <h2>Processo fácil via WhatsApp</h2>
                 <p>
-                  Você não tem que baixar nenhum aplicativo nem fazer algum login. Todo o processo
-                  de cadastro e solicitação é feito via WhatsApp. O máximo de praticidade possível!
+                  Você não tem que baixar nenhum aplicativo nem fazer algum
+                  login. Todo o processo de cadastro e solicitação é feito via
+                  WhatsApp. O máximo de praticidade possível!
                 </p>
               </div>
             </div>
@@ -150,9 +171,9 @@ export default function Home() {
               <div className="content">
                 <h2>Receba via Pix no mesmo dia</h2>
                 <p>
-                  Se você não vai esperar para receber por suas vendas, não tem que esperar para
-                  receber pela Ryze. Assim que fizer a solicitação, mandamos um Pix no mesmo dia com
-                  o valor.
+                  Se você não vai esperar para receber por suas vendas, não tem
+                  que esperar para receber pela Ryze. Assim que fizer a
+                  solicitação, mandamos um Pix no mesmo dia com o valor.
                 </p>
               </div>
               <div className="section-image">
@@ -180,19 +201,23 @@ export default function Home() {
               <div className="content">
                 <h2>Taxa de serviço baixa e contrato transparente</h2>
                 <p>
-                  Aqui na Ryze, a prioridade é a transparência do serviço. Por isso, nossos
-                  contratos sempre têm taxas boas para os pequenos empreendedores e nada de letra
-                  miúda!
+                  Aqui na Ryze, a prioridade é a transparência do serviço. Por
+                  isso, nossos contratos sempre têm taxas boas para os pequenos
+                  empreendedores e nada de letra miúda!
                 </p>
               </div>
             </div>
           </div>
         </section>
-        <section className="video-sobre" id="video-sobre">
+        <section
+          className="video-sobre-antecipacao"
+          id="video-sobre-antecipacao"
+        >
           <div className="container">
             <div className="row">
               <h2>
-                Assista o vídeo e veja como é <span>fácil e rápido</span> pagar com a Ryze.
+                Assista o vídeo e veja como é <span>fácil e rápido</span> pagar
+                com a Ryze.
               </h2>
               <MediaPlayer
                 src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4"

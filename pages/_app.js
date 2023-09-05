@@ -2,6 +2,8 @@ import '../styles/global.css'
 
 import '../styles/home.css'
 import '../styles/empreendedores.css'
+import '../styles/antecipacao.css'
+import '../styles/contato.css'
 
 import '../styles/header.css'
 import '../styles/footer.css'
