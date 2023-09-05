@@ -36,18 +36,15 @@ const Header = () => {
             </button>
             <ul>
               <li>
-                <Link href="#">Para fornecedores</Link>
+                <Link href="/empreendedores">Para Empreendedores</Link>
               </li>
               <li>
-                <Link href="#">Quem somos</Link>
+                <Link href="/antecipacao">Antecipação</Link>
               </li>
               <li>
-                <Link href="#faq">FAQ</Link>
-              </li>
-              <li>
-                <a href="#fornecedores" className="btn-green">
-                  Cadastre-se Grátis
-                </a>
+                <Link href="/contato" className="btn-green">
+                  Contato
+                </Link>
               </li>
             </ul>
           </nav>
