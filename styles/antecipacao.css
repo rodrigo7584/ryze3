@@ -37,6 +37,10 @@ HERO
   background-image: url('../public/icon-check.png');
   background-size: cover;
 }
+.hero-antecipacao .section-image {
+  display: flex;
+  justify-content: center;
+}
 .hero-antecipacao .section-image img {
   width: auto;
   max-width: 100%;
@@ -167,7 +171,6 @@ VIDEO-SOBRE
 END VIDEO-SOBRE
 */
 
-
 @media (max-width: 992px) {
   .destaques .row {
     width: 100%;
@@ -215,6 +218,8 @@ END VIDEO-SOBRE
   }
   .antecipe .boxes {
     gap: 4rem;
+    flex-direction: column;
+    align-items: center;
   }
   .antecipe .boxes .box::before {
     height: 35px;
@@ -225,6 +230,9 @@ END VIDEO-SOBRE
   }
   .antecipe .boxes .box {
     width: 25rem;
+  }
+  .antecipe .boxes .box p {
+    margin-bottom: 0.5rem;
   }
   .video-sobre-antecipacao .row {
     width: 100%;
