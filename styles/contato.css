@@ -1,3 +1,8 @@
-section.contact{
+section.contact {
   padding: 5rem 0;
+}
+section.contact .row {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 40rem);
 }
