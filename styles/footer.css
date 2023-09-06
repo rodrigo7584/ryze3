@@ -36,6 +36,7 @@ footer .social-list {
 footer .social-list img {
   width: 3rem;
   margin-bottom: 2rem;
+  height: auto;
 }
 footer .social p {
   font-size: 1.2rem;

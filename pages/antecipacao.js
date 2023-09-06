@@ -9,7 +9,6 @@ import Accordion from '../components/Accordion'
 import 'vidstack/styles/defaults.css'
 import 'vidstack/styles/community-skin/video.css'
 
-import logo from '../public/logo.png'
 import guySmiling from '../public/guy-smiling.png'
 import iconId from '../public/icon-id.png'
 import iconPix from '../public/icon-pix.png'
