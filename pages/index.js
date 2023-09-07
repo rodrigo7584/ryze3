@@ -18,6 +18,7 @@ import photoGirlSmilling from '../public/illustration.png'
 import illustrationCoin from '../public/illustration-5.png'
 import photo from '../public/photo.jpg'
 import HowWork from '../components/HowWork'
+import iconPrevNext from '../public/icon-next-prev.png'
 
 export default function Home() {
   return (
@@ -264,8 +265,22 @@ export default function Home() {
                     </div>
                   </SwiperSlide>
                 </Swiper>
-                <img src="/icon-next-prev-green.png" className="swiper-button-prev" />
-                <img src="/icon-next-prev-green.png" className="swiper-button-next" />
+                <Image
+                  src={iconPrevNext}
+                  width={30}
+                  height={30}
+                  quality={100}
+                  className="swiper-button-prev"
+                  alt=""
+                />
+                <Image
+                  src={iconPrevNext}
+                  width={30}
+                  height={30}
+                  quality={100}
+                  className="swiper-button-next"
+                  alt=""
+                />
               </div>
             </div>
           </div>

@@ -9,6 +9,7 @@ import parceiro1 from '../public/agr.png'
 import parceiro2 from '../public/ducam.png'
 import parceiro3 from '../public/grupo-ducam.png'
 import parceiro4 from '../public/rvb.png'
+import iconNextPrevGreen from '../public/icon-next-prev-green.png'
 
 const Footer = () => {
   return (
@@ -64,8 +65,22 @@ const Footer = () => {
                 </div>
               </SwiperSlide>
             </Swiper>
-            <img src="/icon-next-prev.png" className="swiper-button-prev" />
-            <img src="/icon-next-prev.png" className="swiper-button-next" />
+            <Image
+              src={iconNextPrevGreen}
+              width={30}
+              height={30}
+              quality={100}
+              className="swiper-button-prev"
+              alt=""
+            />
+            <Image
+              src={iconNextPrevGreen}
+              width={30}
+              height={30}
+              quality={100}
+              className="swiper-button-next"
+              alt=""
+            />
           </div>
         </div>
       </div>
