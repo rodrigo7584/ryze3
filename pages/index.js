@@ -10,11 +10,6 @@ import Header from '../components/Header'
 import Partners from '../components/Partners'
 import Footer from '../components/Footer'
 
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'vidstack/styles/defaults.css'
-import 'vidstack/styles/community-skin/video.css'
-
 import iconDollar from '../public/icon-dollar.png'
 import photoMan2 from '../public/photo-man-2.png'
 import iconGreenArrow from '../public/icon-arrow-3.png'
@@ -34,13 +29,12 @@ export default function Home() {
             <div className="row">
               <div className="content">
                 <h1>
-                  <span>Acabe com a inadimplência e aumente suas vendas, </span>{' '}
-                  saiba exatamente quando e quanto vai receber.
+                  <span>Acabe com a inadimplência e aumente suas vendas, </span> saiba exatamente
+                  quando e quanto vai receber.
                 </h1>
                 <p>
-                  O RyzePay é uma solução de pagamento entre empresas que
-                  elimina o risco de inadimplência. Retome o controle das contas
-                  a receber da sua empresa.
+                  O RyzePay é uma solução de pagamento entre empresas que elimina o risco de
+                  inadimplência. Retome o controle das contas a receber da sua empresa.
                 </p>
                 <Link href="#" className="btn-green">
                   Peça uma demonstração
@@ -63,13 +57,7 @@ export default function Home() {
                   alt=""
                   className="icon-dollar icon-dollar-1"
                 />
-                <Image
-                  src={photoMan2}
-                  width={472}
-                  height={451}
-                  quality={100}
-                  alt=""
-                />
+                <Image src={photoMan2} width={472} height={451} quality={100} alt="" />
               </div>
             </div>
           </div>
@@ -79,68 +67,42 @@ export default function Home() {
             <div className="row">
               <div className="content">
                 <div className="box">
-                  <Image
-                    src={iconGreenArrow}
-                    width={32}
-                    height={38}
-                    quality={100}
-                    alt=""
-                  />
+                  <Image src={iconGreenArrow} width={32} height={38} quality={100} alt="" />
                   <div className="box-content">
                     <h2>Mais segurança financeira</h2>
                     <p>
-                      Pagamento garantido, sem risco. Receba sempre na data
-                      acordada com seu cliente.
+                      Pagamento garantido, sem risco. Receba sempre na data acordada com seu
+                      cliente.
                     </p>
                   </div>
                 </div>
                 <div className="box">
-                  <Image
-                    src={iconGreenArrow}
-                    width={32}
-                    height={38}
-                    quality={100}
-                    alt=""
-                  />
+                  <Image src={iconGreenArrow} width={32} height={38} quality={100} alt="" />
                   <div className="box-content">
                     <h2>Aumente suas vendas </h2>
                     <p>
-                      Traga novos clientes para o seu negócio sem medo da
-                      inadimplência, recebeu via RyzePay o pagamento é
-                      garantido.
+                      Traga novos clientes para o seu negócio sem medo da inadimplência, recebeu via
+                      RyzePay o pagamento é garantido.
                     </p>
                   </div>
                 </div>
                 <div className="box">
-                  <Image
-                    src={iconGreenArrow}
-                    width={32}
-                    height={38}
-                    quality={100}
-                    alt=""
-                  />
+                  <Image src={iconGreenArrow} width={32} height={38} quality={100} alt="" />
                   <div className="box-content">
                     <h2>Melhores condições</h2>
                     <p>
-                      Ofereça mais limite de crédito e um maior prazo de
-                      pagamento para seus clientes, com a segurança que a ryze
-                      oferece.
+                      Ofereça mais limite de crédito e um maior prazo de pagamento para seus
+                      clientes, com a segurança que a ryze oferece.
                     </p>
                   </div>
                 </div>
                 <div className="box">
-                  <Image
-                    src={iconGreenArrow}
-                    width={32}
-                    height={38}
-                    quality={100}
-                    alt=""
-                  />
+                  <Image src={iconGreenArrow} width={32} height={38} quality={100} alt="" />
                   <div className="box-content">
                     <h2>Pagamento digital </h2>
                     <p>
-                      Envie cobranças de forma simples e rápida através da nossa
-                      plataforma 100% digital.
+                      Envie cobranças de forma simples e rápida através da nossa plataforma 100%
+                      digital.
                     </p>
                   </div>
                 </div>
@@ -156,26 +118,17 @@ export default function Home() {
                   O que é<span> RyzePay</span>
                 </h2>
                 <p>
-                  RyzePay é um novo meio de pagamento entre empresas que
-                  possibilita que lojistas utilizem o saldo das maquininhas de
-                  cartão de crédito para pagamento de fornecedores.
+                  RyzePay é um novo meio de pagamento entre empresas que possibilita que lojistas
+                  utilizem o saldo das maquininhas de cartão de crédito para pagamento de
+                  fornecedores.
                 </p>
-                <p>
-                  Com RyzePay seu pagamento é garantido e você impulsiona o seu
-                  negócio
-                </p>
+                <p>Com RyzePay seu pagamento é garantido e você impulsiona o seu negócio</p>
                 <Link href="#" className="btn-green">
                   Peça uma demonstração
                 </Link>
               </div>
               <div className="section-image">
-                <Image
-                  src={photoCellphone}
-                  width={555}
-                  height={651}
-                  quality={100}
-                  alt=""
-                />
+                <Image src={photoCellphone} width={555} height={651} quality={100} alt="" />
               </div>
             </div>
           </div>
@@ -185,22 +138,14 @@ export default function Home() {
           <div className="container-fluid">
             <div className="row">
               <div className="section-image">
-                <Image
-                  src={photoGirlSmilling}
-                  width={881}
-                  height={514}
-                  quality={100}
-                  alt=""
-                />
+                <Image src={photoGirlSmilling} width={881} height={514} quality={100} alt="" />
               </div>
               <div className="content">
                 <ul>
                   <li>Pague apenas pelo o que usar.</li>
                   <li>Envie cobranças de forma rápida e 100% digital.</li>
                   <li>Opções de parcelamento personalizadas.</li>
-                  <li>
-                    Cobre dívidas em aberto e tenha certeza do recebimento.
-                  </li>
+                  <li>Cobre dívidas em aberto e tenha certeza do recebimento.</li>
                 </ul>
               </div>
             </div>
@@ -233,10 +178,8 @@ export default function Home() {
             <div className="row">
               <h2>O que dizem nossos clientes</h2>
               <p className="subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod <br />
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
               </p>
               <div className="swiper-depoimentos">
                 <Swiper
@@ -265,19 +208,12 @@ export default function Home() {
                   <SwiperSlide>
                     <div className="depoimento">
                       <div className="photo">
-                        <Image
-                          src={photo}
-                          width={350}
-                          height={520}
-                          quality={100}
-                          alt=""
-                        />
+                        <Image src={photo} width={350} height={520} quality={100} alt="" />
                       </div>
                       <p className="comentario">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco
                       </p>
                       <p className="function">
                         <strong>CEO</strong>
@@ -289,10 +225,9 @@ export default function Home() {
                     <div className="depoimento">
                       <div className="photo"></div>
                       <p className="comentario">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco
                       </p>
                       <p className="function">
                         <strong>CEO</strong>
@@ -304,10 +239,9 @@ export default function Home() {
                     <div className="depoimento">
                       <div className="photo"></div>
                       <p className="comentario">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco
                       </p>
                       <p className="function">
                         <strong>CEO</strong>
@@ -319,10 +253,9 @@ export default function Home() {
                     <div className="depoimento">
                       <div className="photo"></div>
                       <p className="comentario">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco
                       </p>
                       <p className="function">
                         <strong>CEO</strong>
@@ -331,14 +264,8 @@ export default function Home() {
                     </div>
                   </SwiperSlide>
                 </Swiper>
-                <img
-                  src="/icon-next-prev-green.png"
-                  className="swiper-button-prev"
-                />
-                <img
-                  src="/icon-next-prev-green.png"
-                  className="swiper-button-next"
-                />
+                <img src="/icon-next-prev-green.png" className="swiper-button-prev" />
+                <img src="/icon-next-prev-green.png" className="swiper-button-next" />
               </div>
             </div>
           </div>

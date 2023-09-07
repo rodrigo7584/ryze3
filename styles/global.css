@@ -258,7 +258,10 @@ li {
   font-size: 1.5rem;
   width: fit-content;
 }
-
+.youtube-video {
+  width: 100%;
+  aspect-ratio: 1.777777;
+}
 /*
 FAQ
 */

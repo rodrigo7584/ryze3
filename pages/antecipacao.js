@@ -2,12 +2,7 @@ import React from 'react'
 
 import Image from 'next/image'
 
-import { MediaCommunitySkin, MediaOutlet, MediaPlayer, MediaPoster } from '@vidstack/react'
-
 import Accordion from '../components/Accordion'
-
-import 'vidstack/styles/defaults.css'
-import 'vidstack/styles/community-skin/video.css'
 
 import guySmiling from '../public/guy-smiling.png'
 import iconId from '../public/icon-id.png'
@@ -183,16 +178,14 @@ export default function Antecipacao() {
               <h2>
                 Assista o vídeo e veja como é <span>fácil e rápido</span> pagar com a Ryze.
               </h2>
-              <MediaPlayer
-                src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4"
-                poster="/poster-video-2.png"
-                thumbnails="/poster-video-2.png"
-                aspectRatio={16 / 9}
-              >
-                <MediaOutlet />
-                <MediaPoster alt="A video showing how it work" />
-                <MediaCommunitySkin />
-              </MediaPlayer>
+              <iframe
+                className="youtube-video"
+                src="https://www.youtube.com/embed/b7eMlvmL3mk?si=mO66KdFj0-lVHH_g"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </section>

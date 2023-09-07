@@ -2,17 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import {
-  MediaCommunitySkin,
-  MediaOutlet,
-  MediaPlayer,
-  MediaPoster
-} from '@vidstack/react'
-
 import Accordion from '../components/Accordion'
-
-import 'vidstack/styles/defaults.css'
-import 'vidstack/styles/community-skin/video.css'
 
 import iconArrow from '../public/icon-arrow.png'
 import iconDollar from '../public/icon-dollar.png'
@@ -39,24 +29,17 @@ export default function Empreendedores() {
               <Link href="#porque" className="floating-button">
                 <span>
                   Saiba Mais
-                  <Image
-                    src={iconArrow}
-                    width={12}
-                    height={15}
-                    quality={100}
-                    alt=""
-                  />
+                  <Image src={iconArrow} width={12} height={15} quality={100} alt="" />
                 </span>
               </Link>
               <div className="content">
                 <h1>
-                  Melhore seu fluxo de caixa, compre mais e venda mais. O fôlego
-                  que a sua empresa precisa.
+                  Melhore seu fluxo de caixa, compre mais e venda mais. O fôlego que a sua empresa
+                  precisa.
                 </h1>
                 <p>
-                  RyzePay é um novo meio de pagamento entre empresas que
-                  possibilita usar do saldo a receber das suas maquininhas para
-                  o pagamento de fornecedores.
+                  RyzePay é um novo meio de pagamento entre empresas que possibilita usar do saldo a
+                  receber das suas maquininhas para o pagamento de fornecedores.
                 </p>
                 <Link href="#" className="btn-green">
                   Indique seu fornecedor
@@ -79,13 +62,7 @@ export default function Empreendedores() {
                   alt=""
                   className="icon-dollar icon-dollar-1"
                 />
-                <Image
-                  src={photoMan}
-                  width={472}
-                  height={451}
-                  quality={100}
-                  alt=""
-                />
+                <Image src={photoMan} width={472} height={451} quality={100} alt="" />
               </div>
             </div>
           </div>
@@ -109,8 +86,8 @@ export default function Empreendedores() {
                   />
                   <h3>MAIS PRAZO E LIMITE</h3>
                   <p>
-                    Ao eliminar o risco de inadimplência, o RyzePay ajuda o
-                    lojista a obter mais limite e prazo com seu fornecedor.
+                    Ao eliminar o risco de inadimplência, o RyzePay ajuda o lojista a obter mais
+                    limite e prazo com seu fornecedor.
                   </p>
                 </div>
                 <div className="box">
@@ -124,8 +101,8 @@ export default function Empreendedores() {
                   />
                   <h3>SEM CUSTO</h3>
                   <p>
-                    O lojista não paga taxas nem mensalidade para usar o
-                    RyzePay. Sem letras miúdas nem taxas escondidas.
+                    O lojista não paga taxas nem mensalidade para usar o RyzePay. Sem letras miúdas
+                    nem taxas escondidas.
                   </p>
                 </div>
                 <div className="box">
@@ -139,9 +116,8 @@ export default function Empreendedores() {
                   />
                   <h3>SEM TAXA DE ANTECIPAÇÃO</h3>
                   <p>
-                    O lojista não precisa antecipar suas vendas no cartão para
-                    pagar seu fornecedor, o dinheiro vai para o fornecedor
-                    direto da adquirente.
+                    O lojista não precisa antecipar suas vendas no cartão para pagar seu fornecedor,
+                    o dinheiro vai para o fornecedor direto da adquirente.
                   </p>
                 </div>
               </div>
@@ -152,31 +128,23 @@ export default function Empreendedores() {
           <div className="container">
             <div className="row">
               <div className="section-image">
-                <Image
-                  src={photoSpeech}
-                  width={543}
-                  height={500}
-                  quality={100}
-                  alt=""
-                />
+                <Image src={photoSpeech} width={543} height={500} quality={100} alt="" />
               </div>
               <div className="content">
                 <h2>
                   Modernize o seu negócio com a <span> Ryze RYZE</span>
                 </h2>
                 <p>
-                  A Ryze é uma empresa de tecnologia financeira que veio para
-                  substituir os meios de pagamentos antigos e ineficientes.
-                  Unimos tecnologia de ponta às necessidades de empreendedores e
-                  fornecedores, ajudamos o fornecedor a dar mais crédito com
-                  segurança para seus clientes e o lojista a ganhar mais prazo e
-                  limite para conseguir comprar mais e alavancar suas vendas.
+                  A Ryze é uma empresa de tecnologia financeira que veio para substituir os meios de
+                  pagamentos antigos e ineficientes. Unimos tecnologia de ponta às necessidades de
+                  empreendedores e fornecedores, ajudamos o fornecedor a dar mais crédito com
+                  segurança para seus clientes e o lojista a ganhar mais prazo e limite para
+                  conseguir comprar mais e alavancar suas vendas.
                 </p>
                 <p>
-                  A Ryze ajuda você, lojista, a pagar suas compras de forma
-                  simples e rápida, trazendo para o seu negócio um melhor
-                  controle do fluxo de caixa e ajudando você a evitar pagar
-                  juros e multas. Tudo isso de forma 100% gratuita, sem taxas
+                  A Ryze ajuda você, lojista, a pagar suas compras de forma simples e rápida,
+                  trazendo para o seu negócio um melhor controle do fluxo de caixa e ajudando você a
+                  evitar pagar juros e multas. Tudo isso de forma 100% gratuita, sem taxas
                   escondidas.
                 </p>
                 <Link href="#" className="btn-green">
@@ -191,19 +159,16 @@ export default function Empreendedores() {
           <div className="container">
             <div className="row">
               <h2>
-                Assista o vídeo e veja como é <span>fácil e rápido</span> pagar
-                com a Ryze.
+                Assista o vídeo e veja como é <span>fácil e rápido</span> pagar com a Ryze.
               </h2>
-              <MediaPlayer
-                src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4"
-                poster="/poster-video.png"
-                thumbnails="/poster-video.png"
-                aspectRatio={16 / 9}
-              >
-                <MediaOutlet />
-                <MediaPoster alt="A video showing how it work" />
-                <MediaCommunitySkin />
-              </MediaPlayer>
+              <iframe
+                className="youtube-video"
+                src="https://www.youtube.com/embed/b7eMlvmL3mk?si=mO66KdFj0-lVHH_g"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </section>
@@ -220,13 +185,7 @@ export default function Empreendedores() {
                 </Link>
               </div>
               <div className="section-image">
-                <Image
-                  src={notebook}
-                  width={721}
-                  height={593}
-                  quality={100}
-                  alt=""
-                />
+                <Image src={notebook} width={721} height={593} quality={100} alt="" />
               </div>
             </div>
           </div>
